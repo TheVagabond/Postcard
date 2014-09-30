@@ -13,6 +13,8 @@
 		EA48F16919D097C600BD4E68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA48F16819D097C600BD4E68 /* Images.xcassets */; };
 		EA48F16C19D097C600BD4E68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA48F16A19D097C600BD4E68 /* LaunchScreen.xib */; };
 		EA48F17819D097C600BD4E68 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48F17719D097C600BD4E68 /* PostcardTests.swift */; };
+		EA544C5E19D334E500032DC2 /* through-the-clouds-night-iphone-5-background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA544C5D19D334E500032DC2 /* through-the-clouds-night-iphone-5-background.jpeg */; };
+		EA544C6019D3401700032DC2 /* EbonyHelmet_SK.png in Resources */ = {isa = PBXBuildFile; fileRef = EA544C5F19D3401700032DC2 /* EbonyHelmet_SK.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		EA48F17119D097C600BD4E68 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA48F17619D097C600BD4E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA48F17719D097C600BD4E68 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		EA544C5D19D334E500032DC2 /* through-the-clouds-night-iphone-5-background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "through-the-clouds-night-iphone-5-background.jpeg"; sourceTree = "<group>"; };
+		EA544C5F19D3401700032DC2 /* EbonyHelmet_SK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EbonyHelmet_SK.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		EA48F15F19D097C600BD4E68 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA544C5F19D3401700032DC2 /* EbonyHelmet_SK.png */,
+				EA544C5D19D334E500032DC2 /* through-the-clouds-night-iphone-5-background.jpeg */,
 				EA48F16019D097C600BD4E68 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				EA48F16719D097C600BD4E68 /* Main.storyboard in Resources */,
 				EA48F16C19D097C600BD4E68 /* LaunchScreen.xib in Resources */,
+				EA544C6019D3401700032DC2 /* EbonyHelmet_SK.png in Resources */,
+				EA544C5E19D334E500032DC2 /* through-the-clouds-night-iphone-5-background.jpeg in Resources */,
 				EA48F16919D097C600BD4E68 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				EA48F17D19D097C600BD4E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA48F17E19D097C600BD4E68 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				EA48F18019D097C600BD4E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
