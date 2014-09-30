@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         enterAMessageTextFeild.text = nil;
         enterAMessageTextFeild.resignFirstResponder();
         messageLabel.textColor = UIColor.yellowColor();
+        //yellow
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal);
     }
     
