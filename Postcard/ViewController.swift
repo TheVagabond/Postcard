@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterAMessageTextFeild: UITextField!
     @IBOutlet weak var mailButton: UIButton!
+    @IBOutlet weak var nameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,11 +30,15 @@ class ViewController: UIViewController {
     {
         // Code will evaluate when we press the button
         messageLabel.hidden = false;
+        nameLabel.hidden = false;
         messageLabel.text = enterAMessageTextFeild.text;
+        nameLabel.text = enterNameTextField.text;
         enterAMessageTextFeild.text = nil;
         enterAMessageTextFeild.resignFirstResponder();
+        enterNameTextField.text = nil;
+        enterNameTextField.resignFirstResponder();
         messageLabel.textColor = UIColor.yellowColor();
-        //yellow
+        nameLabel.textColor = UIColor.yellowColor();
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal);
     }
     
